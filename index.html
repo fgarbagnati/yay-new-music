@@ -8,6 +8,7 @@
     <script src="js/libs/jquery-1.11.1.min.js"></script>
     <script src="js/libs/handlebars-v2.0.0.js"></script>
     <script src="js/libs/ember.min.js"></script>
+    <script src="js/libs/ember-template-compiler.js"></script>
     <script src="js/libs/ember-data.js"></script>
     <script src="js/app.js"></script>
     <!-- to activate the test runner, add the "?test" query string parameter -->
@@ -21,7 +22,7 @@
   <body>
     <script type='text/x-handlebars' data-template-name='application'>
       <div class="container">
-        <div class="row">
+        <div class="row header">
           <div class="col-md-6">
             <h1>Yay! New Music!</h1>
           </div>
@@ -29,7 +30,7 @@
           <div class="col-md-6 text-right">
             <div class="questions-comments">
               <p class="button-tag">Questions? Comments?</p>
-              <a href='mailto:f.g.garbagnati@gmail.com?Subject=Yo%20something%20is%20wrong' target='_top' class='btn btn-primary'>Drop me a Line</a>
+              <a href='mailto:f.g.garbagnati@gmail.com?Subject=Yo%20something%20is%20wrong' target='_top' class='btn btn-default'>Drop me a Line</a>
             </div>
           </div>
         </div>
@@ -37,6 +38,7 @@
         <hr>
 
         <footer class=""></footer>
+      </div>
       </script>
 
       <script type='text/x-handlebars' data-template-name='index'>
@@ -47,11 +49,10 @@
 
       <script type='text/x-handlebars' data-template-name='search'>
         <div class="search">
-          <input type="text" placeholder="Give me an artist..."></input>
+
         </div>
       </script>
 
-    </div>
 
 
 
