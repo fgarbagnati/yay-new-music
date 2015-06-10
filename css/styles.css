@@ -19,3 +19,8 @@
   width: 400px;
   border-radius: 5px;
 }
+
+/* FROM EMBER STARTER KIT */
+.ember-application {
+    margin: 20px;
+}
