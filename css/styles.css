@@ -12,6 +12,18 @@ body {
   margin: -2% -2% 0 -2%;
 }
 
+.wrapper .header .nav-links {
+  color: #4b4b4b;
+}
+
+.wrapper .container .content {
+  color: #4b4b4b;
+}
+
+a {
+  color: #4b4b4b;
+}
+
 /* HEADER */
 
 .header {
@@ -45,7 +57,7 @@ body {
 /* SEARCH */
 
 .search {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .search input[type=text] {
