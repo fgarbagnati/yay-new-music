@@ -1,4 +1,28 @@
+/* GENERAL */
+body {
+  background-color: #efeff2;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.clear-container {
+  margin: -2% -2% 0 -2%;
+}
+
 /* HEADER */
+
+.header {
+  background-color: #a69eb0;
+  margin: -2% -2% 0 -2%;
+}
+
+.header-text {
+  color: #efeff2;
+  font-family: 'Jura', sans-serif;
+}
 
 .button-tag {
   margin-bottom: 0;
@@ -8,6 +32,15 @@
 .questions-comments {
   margin: 10px 0 10px 0;
 }
+
+/* FOOTER */
+/*footer {
+  background-color: #f2e2cd;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}*/
 
 /* SEARCH */
 
