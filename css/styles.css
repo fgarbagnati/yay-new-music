@@ -24,6 +24,11 @@ a {
   color: #4b4b4b;
 }
 
+a:hover {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
 /* HEADER */
 
 .header {
