@@ -1,0 +1,21 @@
+/* HEADER */
+
+.button-tag {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+.questions-comments {
+  margin: 10px 0 10px 0;
+}
+
+/* SEARCH */
+
+.search {
+  text-align: center;
+}
+
+.search input[type=text] {
+  width: 400px;
+  border-radius: 5px;
+}
