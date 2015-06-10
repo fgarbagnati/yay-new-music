@@ -1,4 +1,18 @@
+/* GENERAL */
+body {
+  background-color: #efeff2;
+}
+
 /* HEADER */
+
+.header {
+  background-color: #a69eb0;
+  margin: -2% -2% 0 -2%;
+}
+
+.header-text {
+  color: #efeff2;
+}
 
 .button-tag {
   margin-bottom: 0;
