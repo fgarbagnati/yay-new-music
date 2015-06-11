@@ -6,7 +6,3 @@ var NewMusic = {};
 NewMusic.App = Ember.Application.create({
   LOG_TRANSITIONS: true
 })
-
-NewMusic.App.Router.map(function() {
-  this.route('search');
-});
