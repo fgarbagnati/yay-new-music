@@ -1,7 +1,8 @@
-var App = Ember.Application.create({
-  LOG_TRANSITIONS: true
+$(document).on('ready', function() {
+  var echonest = new EchoNest('SNXAFW8HRV2RLZTNW');
 });
 
-App.Router.map(function() {
-  this.route('search');
-});
+var NewMusic = {};
+NewMusic.App = Ember.Application.create({
+  LOG_TRANSITIONS: true
+})
