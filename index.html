@@ -35,6 +35,10 @@
             </div>
           </div>
         </div>
+        <div class="nav-links">
+          {{#link-to 'index'}}Homepage{{/link-to}} |
+          {{#link-to 'search'}}Search{{/link-to}}
+        </div>
 
         <hr>
 
@@ -48,7 +52,7 @@
     </script>
 
       <script type='text/x-handlebars' data-template-name='index'>
-        <div class="index-page">
+        <div class="index-page content">
           <h1>Welcome</h1>
           <p>New music is rad. Let me help you find some!</p>
           <p>[This project is definitely under construction. Hopefully we&#39;ll be good to go soon! In the meantime, enjoy this gif...]</p>
@@ -57,8 +61,10 @@
       </script>
 
       <script type='text/x-handlebars' data-template-name='search'>
-        <div class="search">
-
+        <div class="search content">
+          <h1>Let&#39;s Search!</h1>
+          {{input}}
+          <button class="btn btn-default">Search</button>
         </div>
       </script>
 
