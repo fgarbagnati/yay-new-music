@@ -50,10 +50,14 @@
       </script>
 
       <script type='text/x-handlebars' data-template-name='search'>
-        <div class="search content">
+        <div class="search content form-group">
           <h1>Let&#39;s Search!</h1>
-          {{input}}
-          <button class="btn btn-default">Search</button>
+          {{input
+            valueBinding='query'
+            class='form-control search_bar'
+            action='search'
+            placeholder='Let&#39;s get started!'}}
+          <button {{action 'search'}} class="btn btn-default">Search</button>
         </div>
       </script>
 
